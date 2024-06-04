@@ -129,7 +129,7 @@ void makePrediction() {
     return;
   }
 
-  float temperature = (bme.temperature * (9.0/5.0));
+  float temperature = ((bme.temperature * (9.0/5.0))+32)*(59.0/73.0);
   float pressure = (bme.pressure / 100.0); // hPa
   float humidity = (bme.humidity) * (82.0/55.0);
   
