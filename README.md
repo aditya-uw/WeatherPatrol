@@ -10,10 +10,13 @@ Proposal Summary:
 **Future Steps**: Beyond the scope of this class, we foresee that our work can be continued to be improved upon by adding useful functionalities such as solar power, air quality detection, and fire prediction. Furthermore, with a network of such systems working in conjunction, we foresee that even forecasting should be possible as we can begin to sense the direction of rain phenomena as well as making our data open access for others to use as a low-cost weather station.
 
 Repository architecture:
+
 -> `code`: Stores all of the project code that was used within the final report
-	-> `read_data_from_atg.ipynb` was used to run preliminary analysis on which features need to be used for project and what data looks like.
-	-> `final_USED_2class_mode.ipynb` was used to train our 2 class model and evaluate it on test data. At the end we quantized and saved it under the `models/` and `arduino/` folder
-	-> `weather_pred.ino` is the code we uploaded into our Arduino Nano 33 BLE that invoked the 2 class model trained in the above notebook.
-	-> `2class_model_for30.h` is the Arduino header file that stores our 2 class model parameters.
+- `read_data_from_atg.ipynb` was used to run preliminary analysis on which features need to be used for project and what data looks like.
+- `final_USED_2class_mode.ipynb` was used to train our 2 class model and evaluate it on test data. At the end we quantized and saved it under the `models/` and `arduino/` folder
+- `weather_pred.ino` is the code we uploaded into our Arduino Nano 33 BLE that invoked the 2 class model trained in the above notebook.
+- `2class_model_for30.h` is the Arduino header file that stores our 2 class model parameters.
+
 -> `arduino`: Stores part of the project relevant to the arduino code.
+
 -> `models`: Stores the intermediary .tflite and .h5 files for the models
