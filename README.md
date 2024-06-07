@@ -15,3 +15,5 @@ Repository architecture:
 	-> `final_USED_2class_mode.ipynb` was used to train our 2 class model and evaluate it on test data. At the end we quantized and saved it under the `models/` and `arduino/` folder
 	-> `weather_pred.ino` is the code we uploaded into our Arduino Nano 33 BLE that invoked the 2 class model trained in the above notebook.
 	-> `2class_model_for30.h` is the Arduino header file that stores our 2 class model parameters.
+-> `arduino`: Stores part of the project relevant to the arduino code.
+-> `models`: Stores the intermediary .tflite and .h5 files for the models
