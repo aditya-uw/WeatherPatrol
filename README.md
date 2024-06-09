@@ -19,4 +19,15 @@ Repository architecture:
 
 -> `arduino`: Stores part of the project relevant to the arduino code.
 
--> `models`: Stores the intermediary .tflite and .h5 files for the models
+-> `models`: Stores the intermediary .tflite and .h5 files for the models.
+
+-> `pics`: Stores pictures that were taken to explain how model was developed or to show how system was deployed.
+
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
+
+## License
+
+This project is licensed under the MIT License.
